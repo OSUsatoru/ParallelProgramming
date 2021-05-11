@@ -94,8 +94,13 @@ main( int argc, char *argv[ ] )
 		double time0 = omp_get_wtime( );
 
 		numHits = 0;
+		/* Are these outside variables automatically private? if so, if I declare them as shared variables, could I get
+		higher performance? ( because I assume that shared is good for read only variables
+		I also assumed that there is no false sharing because we do not modify any value)
 
-		#pragma omp parallel for ?????
+		or are they not private or shared?
+		*/
+		#pragma omp parallel for reduction(+:numHits)
 		for( int n = 0; n < NUMTRIALS; n++ )
 		{
 			// randomize everything:
@@ -108,8 +113,8 @@ main( int argc, char *argv[ ] )
 			float  d  =  ds[n];
 
 			// see if the ball doesn't even reach the cliff:`
-			float t = ?????
-			float x = ?????
+			float t = vy/(-0.5*GRAVITY);
+			float x = vx*t;
 			if( x <= g )
 			{
 				if( DEBUG )	fprintf( stderr, "Ball doesn't even reach the cliff\n" );
@@ -117,8 +122,8 @@ main( int argc, char *argv[ ] )
 			else
 			{
 				// see if the ball hits the vertical cliff face:
-				t = ?????
-				float y = ?????
+				t = g/vx;
+				float y = vy*t+0.5*GRAVITY*t*t;
 				if( y <= h )
 				{
 					if( DEBUG )	fprintf( stderr, "Ball hits the cliff face\n" );
@@ -131,9 +136,9 @@ main( int argc, char *argv[ ] )
 					// where 'a' multiplies time^2
 					//       'b' multiplies time
 					//       'c' is a constant
-					float a = ?????
-					float b = ?????
-					float c = ?????
+					float a = 0.5*GRAVITY;
+					float b = vy;
+					float c = -h;
 					float disc = b*b - 4.f*a*c;	// quadratic formula discriminant
 
 					// ball doesn't go as high as the upper deck:
@@ -166,7 +171,7 @@ main( int argc, char *argv[ ] )
 					else
 					{
 						if( DEBUG )  fprintf( stderr, "Hits the castle at upperDist = %8.3f\n", upperDist );
-						?????
+						numHits+=1;
 					}
 				} // if ball clears the cliff face
 			} // if ball gets as far as the cliff face
@@ -179,7 +184,7 @@ main( int argc, char *argv[ ] )
 	} // for ( # of timing tries )
 
 	float probability = (float)numHits/(float)( NUMTRIALS );	// just get for last NUMTRIES run
-	fprintf(stderr, "%2d threads : %8d trials ; probability = %6.2f%% ; megatrials/sec = %6.2lf\n",
+	fprintf(stdout, "%2d threads : %8d trials ; probability = %6.2f%% ; megatrials/sec = %6.2lf\n",
 		NUMT, NUMTRIALS, 100.*probability, maxPerformance);
 
 	return 0;
