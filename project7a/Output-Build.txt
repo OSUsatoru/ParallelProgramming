@@ -1,0 +1,6 @@
+﻿1>------ Build started: Project: Sample, Configuration: Debug Win32 ------
+1>sample.cpp
+1>sample.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+1>Sample.vcxproj -> C:\MJB\CS575\Particles2019\.\Debug\Sample.exe
+1>Done building project "Sample.vcxproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

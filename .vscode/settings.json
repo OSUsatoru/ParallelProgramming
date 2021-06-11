@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "cmath": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "chrono": "cpp",
+        "*.ipp": "cpp"
     }
 }
