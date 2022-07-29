@@ -1,0 +1,5 @@
+![image](../images/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction-1.png)
+![image](../images/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction-2.png)
+![image](../images/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction-3.png)
+![image](../images/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction-4.png)
+![image](../images/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction/cs475_project2_Numeric%20Integration%20with%20OpenMP%20Reduction-5.png)

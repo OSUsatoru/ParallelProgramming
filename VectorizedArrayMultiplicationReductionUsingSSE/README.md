@@ -1,0 +1,3 @@
+![image](../images/cs475_project4_Vectorized_Array_Multiplication_Reduction_using_SSE/cs475_project4_Vectorized_Array_Multiplication_Reduction_using_SSE-1.png)
+![image](../images/cs475_project4_Vectorized_Array_Multiplication_Reduction_using_SSE/cs475_project4_Vectorized_Array_Multiplication_Reduction_using_SSE-2.png)
+![image](../images/cs475_project4_Vectorized_Array_Multiplication_Reduction_using_SSE/cs475_project4_Vectorized_Array_Multiplication_Reduction_using_SSE-3.png)

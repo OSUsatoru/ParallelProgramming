@@ -1,0 +1,5 @@
+![image](../images/cs475_project1_Monte%20Carlo%20Simulation/cs475_project1_Monte%20Carlo%20Simulation-1.png)
+![image](../images/cs475_project1_Monte%20Carlo%20Simulation/cs475_project1_Monte%20Carlo%20Simulation-2.png)
+![image](../images/cs475_project1_Monte%20Carlo%20Simulation/cs475_project1_Monte%20Carlo%20Simulation-3.png)
+![image](../images/cs475_project1_Monte%20Carlo%20Simulation/cs475_project1_Monte%20Carlo%20Simulation-4.png)
+![image](../images/cs475_project1_Monte%20Carlo%20Simulation/cs475_project1_Monte%20Carlo%20Simulation-5.png)
