@@ -6,8 +6,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # PARTICULAR PURPOSE.
 
 # This program built for i386-pc-mingw32
+ 
 
-# Make data base, printed on Thu Jul 28 05:33:09 2022
+# Make data base, printed on Wed Aug 03 04:36:22 2022
 
 # Variables
 
@@ -80,7 +81,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 POSH_THEMES_PATH = C:\Users\satoru\AppData\Local\Programs\oh-my-posh\themes
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22456_YZZULOZTBLJGQQPP
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5604_MECAPUGFUFGWPFGZ
 # environment
 COMPUTERNAME = DESKTOP-MGUK4JU
 # environment
@@ -102,7 +103,7 @@ CHOCOLATEYTOOLSLOCATION = C:\tools
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\satoru\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
@@ -154,7 +155,8 @@ PROMPT = $P$G
 # environment
 MFLAGS = -Rrqp
 # automatic
-*D = $(patsubst %/,%,$(dir $*))
+*D  
+= $(patsubst %/,%,$(dir $*))
 # environment
 SYSTEMROOT = C:\WINDOWS
 # environment
@@ -198,7 +200,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 22456
+VSCODE_PID = 5604
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-MGUK4JU
 # variable set hash-table stats:
@@ -219,7 +221,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-MGUK4JU
 # C:\Program Files (x86)\WinMerge (key C:/Program Files (x86)/WinMerge, mtime 1652256644): 23 files, no impossibilities.
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1611573983): 32 files, no impossibilities.
 # C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1657791026): 154 files, no impossibilities.
-# . (key c:/cs475_programming_assignments, mtime 1623155148): 14 files, no impossibilities.
+# . (key c:/cs475_programming_assignments, mtime 1659130092): 16 files, no impossibilities.
 # C:\Users\satoru\AppData\Local\Microsoft\WindowsApps (key C:/Users/satoru/AppData/Local/Microsoft/WindowsApps, mtime 1658620498): 36 files, no impossibilities.
 # C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1650312794): 13 files, no impossibilities.
 # C:\Users\satoru\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/satoru/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1649027399): 22 files, no impossibilities.
@@ -232,7 +234,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-MGUK4JU
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1607591521): 142 files, no impossibilities.
 # C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1656462251): 478 files, no impossibilities.
 # C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
-# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1652254512): 5 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1659136965): 5 files, no impossibilities.
 # C:\Program Files\Microsoft VS Code\bin (key C:/Program Files/Microsoft VS Code/bin, mtime 1648719172): 4 files, no impossibilities.
 # C:\Users\satoru\AppData\Local\GitHubDesktop\bin (key C:/Users/satoru/AppData/Local/GitHubDesktop/bin, mtime 1602130983): 4 files, no impossibilities.
 # C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1609964528): 4 files, no impossibilities.
@@ -242,7 +244,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-MGUK4JU
 # C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
 # C:\tools\ghc-9.0.1\bin (key C:/tools/ghc-9.0.1/bin, mtime 1617170384): 20 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1648718924): 8 files, no impossibilities.
-# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1658800072): 3000 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1659347304): 3000 files, no impossibilities.
 # C:\Users\satoru\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/satoru/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1658224639): 4 files, no impossibilities.
 # C:\Python27 (key C:/Python27, mtime 1654044470): 15 files, no impossibilities.
 # C:\Users\satoru\AppData\Roaming\cabal\bin: could not be stat'd.
@@ -253,7 +255,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-MGUK4JU
 # C:\Users\satoru\AppData\Local\Programs\Python\Python39\ (key C:/Users/satoru/AppData/Local/Programs/Python/Python39/, mtime 1608778898): 18 files, no impossibilities.
 # C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1619415216): 5 files, no impossibilities.
 
-# 4863 files, no impossibilities in 42 directories.
+# 4865 files, no impossibilities in 42 directories.
 
 # Implicit Rules
 
@@ -315,7 +317,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Jul 28 05:33:09 2022
+# Finished Make data base on Wed Aug 03 04:36:22 2022
 
  
 make.exe: *** No rule to make target `all'.  Stop.

@@ -4,7 +4,7 @@ E-mail: yamamsat@oregonstate.edu</br>
 Discord: satoru#2984
 
 # Parallel Programming
-Repository for learning parallel programming. Each file includes the result of the experiment.
+Repository for learning parallel programming in C/C++. Each file includes the result of the experiment.
 
 ## Main Topics
 * Moore's Law and Multicore
